@@ -1,18 +1,29 @@
 package com.company;
 
-class car{
+class car {
     int id;
     String name;
+
+    public void PrintDetail(){
+        System.out.println("Your id :- " + id);
+        System.out.println("Your name :- " + name);
+    }
 }
+
 public class Pa_33_CustomClass {
     public static void main(String[] args) {
-        car parth =new car();
+        car parth = new car(); // OOP create
 
-        parth.id=22;
-        parth.name="codewithparth";
+        // setting Attributa
+        parth.id = 22;
+        parth.name = "codewithparth";
 
-        System.out.println("Your id:-"+parth.id);
-        System.out.println("Your name:-"+parth.name);
+        // print in Detail
+        parth.PrintDetail();
+
+        // print in Detail
+        // System.out.println("Your id:-" + parth.id);
+        // System.out.println("Your name:-" + parth.name);
 
     }
 }
