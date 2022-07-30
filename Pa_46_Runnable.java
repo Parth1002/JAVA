@@ -22,7 +22,7 @@ class MytharedRunnable2 implements Runnable{
         }
     }
 }
-public class Pa_46_Thread2_Runnable{
+public class Pa_46_Runnable{
     public static void main(String[] args) {
         MytharedRunnable1 bullet1= new MytharedRunnable1();
         Thread gun1 = new Thread(bullet1);
